@@ -1,5 +1,7 @@
 # Soul
 
+
+You can play this game in Itch.io with the follow link :D! https://elvisvilla.itch.io/soul
 Gender: RogueLike Platformer, game aimed for mobile Android / iOS.
 (Currently in Development)
 

@@ -1,0 +1,1648 @@
+fileFormatVersion: 2
+guid: 696808bc42a7f46388b4067aac7b5a11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6577456351685581824
+    second: barrel boy00
+  - first:
+      213: 9062012283529490494
+    second: barrel boy01
+  - first:
+      213: 6633994654778237831
+    second: barrel boy02
+  - first:
+      213: 6189191348119058911
+    second: barrel boy03
+  - first:
+      213: 8885101350141657551
+    second: barrel boy04
+  - first:
+      213: 1230733780766981130
+    second: barrel boy05
+  - first:
+      213: -6808385457256423573
+    second: barrel boy06
+  - first:
+      213: 7095563615445340862
+    second: barrel boy07
+  - first:
+      213: -808661218253125843
+    second: barrel boy08
+  - first:
+      213: -9134969669684361794
+    second: barrel boy09
+  - first:
+      213: -2707997687331000545
+    second: barrel boy10
+  - first:
+      213: 8343432226684919311
+    second: barrel boy11
+  - first:
+      213: 1723129070748747936
+    second: barrel boy12
+  - first:
+      213: -3517138573626312249
+    second: barrel boy13
+  - first:
+      213: 7776130194735360949
+    second: barrel boy14
+  - first:
+      213: 4274321063396291315
+    second: barrel boy15
+  - first:
+      213: -5239282102967627313
+    second: barrel boy16
+  - first:
+      213: 288377690841554919
+    second: barrel boy17
+  - first:
+      213: -6403756756063375249
+    second: barrel boy18
+  - first:
+      213: 272188591304595846
+    second: barrel boy19
+  - first:
+      213: 3486467615028247456
+    second: barrel boy20
+  - first:
+      213: -3738896788904622674
+    second: barrel boy21
+  - first:
+      213: 8957685075259180201
+    second: barrel boy22
+  - first:
+      213: -1187712581161513807
+    second: barrel boy23
+  - first:
+      213: 4224791616298787035
+    second: barrel boy24
+  - first:
+      213: 3735499693441124327
+    second: barrel boy25
+  - first:
+      213: -3178329598029861716
+    second: barrel boy26
+  - first:
+      213: -3356764129596212597
+    second: barrel boy27
+  - first:
+      213: 8779551313387802001
+    second: barrel boy28
+  - first:
+      213: 8531381827241324722
+    second: barrel boy29
+  - first:
+      213: 7591449546073994103
+    second: barrel boy30
+  - first:
+      213: 3560532003189672961
+    second: barrel boy31
+  - first:
+      213: -2955671359408453674
+    second: barrel boy32
+  - first:
+      213: -9195844482722687500
+    second: barrel boy33
+  - first:
+      213: -1287964738268583075
+    second: barrel boy34
+  - first:
+      213: 822099811550097222
+    second: barrel boy35
+  - first:
+      213: -995421362279839707
+    second: barrel boy36
+  - first:
+      213: 5643449627944873884
+    second: barrel boy37
+  - first:
+      213: -5125711998733115141
+    second: barrel boy38
+  - first:
+      213: -7261976347133553354
+    second: barrel boy39
+  - first:
+      213: 6582945707092064717
+    second: barrel boy40
+  - first:
+      213: 3527463042026548309
+    second: barrel boy41
+  - first:
+      213: -9128406481094178381
+    second: barrel boy42
+  - first:
+      213: -1443950443705703365
+    second: barrel boy43
+  - first:
+      213: 4352604541784135247
+    second: barrel boy44
+  - first:
+      213: 4345125337541977590
+    second: barrel boy45
+  - first:
+      213: -7839548987664900320
+    second: barrel boy46
+  - first:
+      213: -7487642102131646330
+    second: barrel boy47
+  - first:
+      213: -587877118425181880
+    second: barrel boy48
+  - first:
+      213: 5262857838054084827
+    second: barrel boy49
+  - first:
+      213: 338069496454348044
+    second: barrel boy50
+  - first:
+      213: -5570576978504059436
+    second: barrel boy51
+  - first:
+      213: 2358140921274180934
+    second: barrel boy52
+  - first:
+      213: -8152501676119295572
+    second: barrel boy53
+  - first:
+      213: -1242066089279810499
+    second: barrel boy54
+  - first:
+      213: 6892704579566038364
+    second: barrel boy55
+  - first:
+      213: 4163054648959530126
+    second: barrel boy56
+  - first:
+      213: 5248667944693851460
+    second: barrel boy57
+  - first:
+      213: 4652263120687841893
+    second: barrel boy58
+  - first:
+      213: -2071050409536880366
+    second: barrel boy59
+  - first:
+      213: 3698160199620116889
+    second: barrel boy60
+  - first:
+      213: 2879093095778180380
+    second: barrel boy61
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barrel boy00
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004e4280c4e28b4a0800000000000000
+      internalID: -6577456351685581824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy01
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e307006c82cb2cd70800000000000000
+      internalID: 9062012283529490494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy02
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783a5e77dfea01c50800000000000000
+      internalID: 6633994654778237831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy03
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9be874dbc64e550800000000000000
+      internalID: 6189191348119058911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy04
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc189884a983e4b70800000000000000
+      internalID: 8885101350141657551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy05
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c70b75ad1741110800000000000000
+      internalID: 1230733780766981130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy06
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f9b4ebf71c381a0800000000000000
+      internalID: -6808385457256423573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy07
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 351
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb25ecba381887260800000000000000
+      internalID: 7095563615445340862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27436e08ee07c4f0800000000000000
+      internalID: -808661218253125843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy09
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb50f7c0c711a3180800000000000000
+      internalID: -9134969669684361794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f6e0273724b6ad0800000000000000
+      internalID: -2707997687331000545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ed91f9763d9c370800000000000000
+      internalID: 8343432226684919311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8c024a2c8c9e710800000000000000
+      internalID: 1723129070748747936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9fd251a1d903fc0800000000000000
+      internalID: -3517138573626312249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbe360663d5aeb60800000000000000
+      internalID: 7776130194735360949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 301
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2b4bf5c50715b30800000000000000
+      internalID: 4274321063396291315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc19d8eafa45a47b0800000000000000
+      internalID: -5239282102967627313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef12cf5bf5800400800000000000000
+      internalID: 288377690841554919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60b5dea8294127a0800000000000000
+      internalID: -6403756756063375249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689df98e41207c300800000000000000
+      internalID: 272188591304595846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab79a2e2db626030800000000000000
+      internalID: 3486467615028247456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy21
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5cd751e25cc1cc0800000000000000
+      internalID: -3738896788904622674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a444a8bd17105c70800000000000000
+      internalID: 8957685075259180201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy23
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 251
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc0b9043b5648fe0800000000000000
+      internalID: -1187712581161513807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0a983579971aa30800000000000000
+      internalID: 4224791616298787035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7832efd2927d330800000000000000
+      internalID: 3735499693441124327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cace152f11e44e3d0800000000000000
+      internalID: -3178329598029861716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8af4ac1fc06a61d0800000000000000
+      internalID: -3356764129596212597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy28
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d4bc9476b37d970800000000000000
+      internalID: 8779551313387802001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy29
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b031f7129e856670800000000000000
+      internalID: 8531381827241324722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7737a04142f3a5960800000000000000
+      internalID: 7591449546073994103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy31
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 201
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cc78d0efc896130800000000000000
+      internalID: 3560532003189672961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7c9a5fe885bf6d0800000000000000
+      internalID: -2955671359408453674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f514952a2cc16080800000000000000
+      internalID: -9195844482722687500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ba54cf4ea302ee0800000000000000
+      internalID: -1287964738268583075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64feb554c6fa86b00800000000000000
+      internalID: 822099811550097222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy36
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52889738b8d8f22f0800000000000000
+      internalID: -995421362279839707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy37
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fe67d498f815e40800000000000000
+      internalID: 5643449627944873884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy38
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf02e862810ddd8b0800000000000000
+      internalID: -5125711998733115141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy39
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 151
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635d0d5ecf6483b90800000000000000
+      internalID: -7261976347133553354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9b7ee1e325b5b50800000000000000
+      internalID: 6582945707092064717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy41
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55caf4a82f014f030800000000000000
+      internalID: 3527463042026548309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy42
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b902097ba2615180800000000000000
+      internalID: -9128406481094178381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy43
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3467a9c8be06fbe0800000000000000
+      internalID: -1443950443705703365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy44
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f469bc805ce876c30800000000000000
+      internalID: 4352604541784135247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy45
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f52db8197cfc4c30800000000000000
+      internalID: 4345125337541977590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy46
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fd5fe3bb3543390800000000000000
+      internalID: -7839548987664900320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy47
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 101
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6802f29ed2d861890800000000000000
+      internalID: -7487642102131646330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841dfa020e077d7f0800000000000000
+      internalID: -587877118425181880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy49
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd01894e15d690940800000000000000
+      internalID: 5262857838054084827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy50
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d7e857a6011b400800000000000000
+      internalID: 338069496454348044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy51
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5fb4290c551b2b0800000000000000
+      internalID: -5570576978504059436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy52
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6452cd68cacc9b020800000000000000
+      internalID: 2358140921274180934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy53
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9f12c5bee7cde80800000000000000
+      internalID: -8152501676119295572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy54
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d341be8f87b43cee0800000000000000
+      internalID: -1242066089279810499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy55
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dedb6cb4ec7af50800000000000000
+      internalID: 6892704579566038364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8475cb752426c930800000000000000
+      internalID: 4163054648959530126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445e473efa307d840800000000000000
+      internalID: 5248667944693851460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy58
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562cf36d8a8209040800000000000000
+      internalID: 4652263120687841893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy59
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21180ab10a62243e0800000000000000
+      internalID: -2071050409536880366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy60
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99148dc9b11825330800000000000000
+      internalID: 3698160199620116889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrel boy61
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d5321aae794f720800000000000000
+      internalID: 2879093095778180380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      barrel boy41: 3527463042026548309
+      barrel boy46: -7839548987664900320
+      barrel boy12: 1723129070748747936
+      barrel boy26: -3178329598029861716
+      barrel boy60: 3698160199620116889
+      barrel boy21: -3738896788904622674
+      barrel boy06: -6808385457256423573
+      barrel boy51: -5570576978504059436
+      barrel boy15: 4274321063396291315
+      barrel boy00: -6577456351685581824
+      barrel boy13: -3517138573626312249
+      barrel boy27: -3356764129596212597
+      barrel boy07: 7095563615445340862
+      barrel boy19: 272188591304595846
+      barrel boy44: 4352604541784135247
+      barrel boy52: 2358140921274180934
+      barrel boy39: -7261976347133553354
+      barrel boy45: 4345125337541977590
+      barrel boy37: 5643449627944873884
+      barrel boy09: -9134969669684361794
+      barrel boy04: 8885101350141657551
+      barrel boy20: 3486467615028247456
+      barrel boy58: 4652263120687841893
+      barrel boy35: 822099811550097222
+      barrel boy24: 4224791616298787035
+      barrel boy30: 7591449546073994103
+      barrel boy53: -8152501676119295572
+      barrel boy55: 6892704579566038364
+      barrel boy32: -2955671359408453674
+      barrel boy29: 8531381827241324722
+      barrel boy42: -9128406481094178381
+      barrel boy23: -1187712581161513807
+      barrel boy56: 4163054648959530126
+      barrel boy50: 338069496454348044
+      barrel boy14: 7776130194735360949
+      barrel boy02: 6633994654778237831
+      barrel boy10: -2707997687331000545
+      barrel boy22: 8957685075259180201
+      barrel boy54: -1242066089279810499
+      barrel boy49: 5262857838054084827
+      barrel boy43: -1443950443705703365
+      barrel boy36: -995421362279839707
+      barrel boy05: 1230733780766981130
+      barrel boy48: -587877118425181880
+      barrel boy01: 9062012283529490494
+      barrel boy38: -5125711998733115141
+      barrel boy11: 8343432226684919311
+      barrel boy57: 5248667944693851460
+      barrel boy31: 3560532003189672961
+      barrel boy16: -5239282102967627313
+      barrel boy59: -2071050409536880366
+      barrel boy34: -1287964738268583075
+      barrel boy03: 6189191348119058911
+      barrel boy08: -808661218253125843
+      barrel boy40: 6582945707092064717
+      barrel boy47: -7487642102131646330
+      barrel boy25: 3735499693441124327
+      barrel boy28: 8779551313387802001
+      barrel boy61: 2879093095778180380
+      barrel boy17: 288377690841554919
+      barrel boy18: -6403756756063375249
+      barrel boy33: -9195844482722687500
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

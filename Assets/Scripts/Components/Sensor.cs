@@ -13,11 +13,12 @@ public class Sensor
 
     public Transform target;
     
-    public bool IsDetected(Transform owner)
+    public bool IsDetectingTarget(Transform owner)
     {
         return _isDetected;
     }        
 
+    //Update the Sensor and also can trigger methods when something is detected.
     public void UpdateScan(Transform owner, Action OnSomethingDetected = null)
     {
         var coll = Scan(owner);

@@ -5,28 +5,22 @@ using UnityEngine;
 
 public class StateMachine : MonoBehaviour
 {
-
     //Clase base Entity puede ser Enemigo/Player/Fruta/ 
-    [HideInInspector] public Enemy enemy;
+    public Enemy Enemy { get; private set; }
 
     //BaseState debe ser scriptableObject
-    //Debe haber una lista de estados asignables como scriptableObjects.
-    public BaseState currentState;
-    public PatrolState patrol = new PatrolState();
-    public CombatState combat = new CombatState();
-    public HurtState hurt = new HurtState();
-    public DeadState dead = new DeadState();
+    private BaseState currentState;
+    [SerializeField]private List<BaseState> states = null;
 
     private void Awake()
     {
-        enemy = GetComponent<Enemy>();
+        Enemy = GetComponent<Enemy>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        currentState = patrol;
-        currentState.EnterState(this);
+        SwitchState(StateType.Patrol);
     }
 
     // Update is called once per frame
@@ -40,18 +34,16 @@ public class StateMachine : MonoBehaviour
         currentState.Collisions(this);
     }
 
-    public void SwitchState(BaseState state)
+    public void SwitchState(StateType type)
     {
-        currentState = state;
+        currentState = states.Find(state => state.type == type);
         currentState.EnterState(this);
     }
 
     private void OnDrawGizmos()
     {
-        
-        var area = enemy != null ? enemy.Sensor.radiusDetection : 5f;
+        var area = Enemy != null ? Enemy.Sensor.radiusDetection : 5f;
         Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(transform.position, area);
-
     }
 }

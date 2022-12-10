@@ -24,17 +24,13 @@ public class EnemyMovement
         body = enemy.Body;
     }
 
-    //Modificar PerformMovement de modo que pueda cambiar target para tambien seguir al jugador.
-    //Va a seguir al al target siempre.
-
-    public void PerformMovement(Enemy enemy, float delta)
+    public void WayPointMovement(Enemy owner)
     {
-        distanceToWaypoint = Vector2.Distance(enemy.transform.position, wayPoints[indexWaypoint].position);
-        //Animations();
+        distanceToWaypoint = Vector2.Distance(owner.transform.position, wayPoints[indexWaypoint].position);
 
         if (distanceToWaypoint > 0.5f)
         {
-            enemy.Body.position = Vector2.MoveTowards(enemy.Body.position, wayPoints[indexWaypoint].position,
+            owner.Body.position = Vector2.MoveTowards(owner.Body.position, wayPoints[indexWaypoint].position,
             speed * Time.deltaTime);
             //Animations();
         }
@@ -43,11 +39,10 @@ public class EnemyMovement
             if (doOnce == false)
             {
                 waitTime = Random.Range(1f, 5f);
-                enemy.StartCoroutine(Wait());
+                owner.StartCoroutine(Wait());
                 doOnce = true;
             }
         }
-
     }
 
     IEnumerator Wait()
@@ -62,36 +57,34 @@ public class EnemyMovement
         doOnce = false;
     }
 
-    public void Move(Enemy enemy, float delta, Transform target)
+    public void Move(Enemy owner, float delta, Transform target)
     {
-        var targetDirection = target.position - enemy.transform.position;
-        var distance = Vector2.Distance(target.position, enemy.transform.position);
+        var targetDirection = target.position - owner.transform.position;
+        var distance = Vector2.Distance(target.position, owner.transform.position);
         Debug.Log(distance);
 
         if (distance > stoppingDistance)
         {
-            enemy.Body.position = Vector2.MoveTowards(enemy.Body.position, target.transform.position,
+            
+            owner.Body.position = Vector2.MoveTowards(owner.Body.position, target.transform.position,
             followSpeed * Time.deltaTime);
         }
     }
 
-    //Una demostracion de la clase Sensor.
-    //if (sensor.IsDetected())
-    //{
-    //    print("Detected with bool");
-    //}
+    void Animations(Enemy owner)
+    {
+        owner.Animator.SetBool("IsMoving", distanceToWaypoint > 0.5f);
+    }
 
-    //sensor.OnDetected(() => print("Detecting with Ondetected"));
-
-    //void Animations()
-    //{
-    //    anim.SetBool("IsMoving", distanceToWaypoint > 0.55f);
-    //    if(body.position.x > wayPoints[IndexWaypoint].position.x)
-    //    {
-    //        sprite.flipX = true;
-    //    }
-    //    else
-    //    {
-    //        sprite.flipX = false;
-    //    }
+    void SpriteOrientation(Enemy owner)
+    {
+        if (body.position.x > wayPoints[indexWaypoint].position.x)
+        {
+            owner.Sprite.flipX = true;
+        }
+        else
+        {
+            owner.Sprite.flipX = false;
+        }
+    }
 }

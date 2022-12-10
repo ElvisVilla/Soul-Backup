@@ -3,16 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEngine.Rendering.DebugUI;
 using DG.Tweening;
+using Bissash;
+
 
 public class Player : MonoBehaviour
 {
     Rigidbody2D body;
-    SpriteRenderer sprite;
+    public SpriteRenderer Sprite { get; private set; }
     Animator anim;
     Sensor sensor;
     PlayerInputActions playerInputActions;
+    public float firstTimerCooldown = 5f;
+    public float secondTimerCooldown = 5f;
+
+    public GameEvent gameStartEvent;
   
     Vector2 inputAxis = Vector2.zero;
 
@@ -50,17 +55,18 @@ public class Player : MonoBehaviour
     {
         playerInputActions = new PlayerInputActions();
         body = GetComponent<Rigidbody2D>();
-        sprite = GetComponent<SpriteRenderer>();
+        Sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        //sensor = GetComponentInChildren<Sensor>();
+        
     }
 
     private void OnEnable()
     {
+
         playerInputActions.Enable();
-        playerInputActions.Player.Attack.started += Attack_performed;
-        playerInputActions.Player.Dash.started += Dash_performed;
-        playerInputActions.Player.Dagger.started += Dagger_performed;
+        playerInputActions.Player.Attack.started += Attack_started;
+        playerInputActions.Player.Dash.started += Dash_started;
+        playerInputActions.Player.Dagger.started += Dagger_started;
 
         playerInputActions.Player.Jump.started += Jump_started;
         playerInputActions.Player.Jump.canceled += Jump_canceled;
@@ -68,6 +74,7 @@ public class Player : MonoBehaviour
 
     private void Jump_started(InputAction.CallbackContext context)
     {
+        gameStartEvent.RaiseEvent();
         if (isGrounded && context.started)
             canDoubleJump = false;
 
@@ -94,17 +101,17 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Dagger_performed(InputAction.CallbackContext obj)
+    private void Dagger_started(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("Dagger");
+            anim.SetTrigger("Dagger");
     }
 
-    private void Dash_performed(InputAction.CallbackContext obj)
+    private void Dash_started(InputAction.CallbackContext obj)
     {
         StartCoroutine(Dash());
     }
 
-    private void Attack_performed(InputAction.CallbackContext obj)
+    private void Attack_started(InputAction.CallbackContext obj)
     {
         anim.SetTrigger("FirstAttack");
     }
@@ -112,6 +119,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         inputAxis = playerInputActions.Player.Move.ReadValue<Vector2>();
         Animations();
 
@@ -148,10 +156,12 @@ public class Player : MonoBehaviour
     }
     private void Move()
     {
+        //if (wallJumping && isGrounded)
+        //    canMove = true;
+
         if (canMove)
         {
             body.velocity = new Vector2(inputAxis.x * speed, body.velocity.y);
-            //body.velocity = Vector2.MoveTowards(body.position, inputAxis, speed * Time.deltaTime);
             FlipSprite();
         }
     }
@@ -161,7 +171,7 @@ public class Player : MonoBehaviour
         isGrounded = Physics2D.Raycast(raycastPosition.position, Vector2.down,
                     groundRaycastDistance, whatIsGround);
 
-        isWallDetected = Physics2D.Raycast(raycastPosition.position, Vector2.right * facingDirection,
+        isWallDetected = Physics2D.Raycast(raycastPosition.position, new Vector2(facingDirection, 0),
             wallRaycastDistance, whatIsGround);
     }
 
@@ -199,9 +209,6 @@ public class Player : MonoBehaviour
         {
             canWallSlide = true;
         }
-
-        //if (inputAxis.y < 0f)
-        //    canWallSlide = false;
     }
 
     private IEnumerator WallJump()
@@ -224,7 +231,6 @@ public class Player : MonoBehaviour
         body.velocity = new Vector2(facingDirection * speed, 0);
 
         yield return new WaitForSeconds(0.4f);
-
         canMove = true;
         body.velocity = Vector2.zero;
         body.gravityScale = previousGravity;
@@ -245,25 +251,29 @@ public class Player : MonoBehaviour
         {
             if (facingDirection  > 0)
             {
-                sprite.flipX = true;
+                Sprite.flipX = true;
             }
             else
             {
-                sprite.flipX = false;
+                Sprite.flipX = false;
             }
             return;
         }
         else if (inputAxis != Vector2.zero)
         {
-            sprite.flipX = inputAxis.x < 0;
+            Sprite.flipX = inputAxis.x < 0;
             facingDirection = inputAxis.x;
         }
         else
         {
             if (facingDirection >= 0)
-                sprite.flipX = false;
+            {
+                Sprite.flipX = false;
+            }
             else
-                sprite.flipX = true;
+            {
+                Sprite.flipX = true;
+            }
         }
     }
 
@@ -277,9 +287,9 @@ public class Player : MonoBehaviour
     private void OnDisable()
     {
         playerInputActions.Disable();
-        playerInputActions.Player.Attack.started -= Attack_performed;
-        playerInputActions.Player.Dash.started -= Dash_performed;
-        playerInputActions.Player.Dagger.started -= Dagger_performed;
+        playerInputActions.Player.Attack.started -= Attack_started;
+        playerInputActions.Player.Dash.started -= Dash_started;
+        playerInputActions.Player.Dagger.started -= Dagger_started;
 
         playerInputActions.Player.Jump.started -= Jump_started;
         playerInputActions.Player.Jump.canceled -= Jump_canceled;
@@ -290,6 +300,7 @@ public class Player : MonoBehaviour
         var lineDir = new Vector2(raycastPosition.position.x, raycastPosition.position.y -
             groundRaycastDistance);
         Gizmos.DrawLine(raycastPosition.position, lineDir);
+
         var wallLine = new Vector2(raycastPosition.position.x + wallRaycastDistance * facingDirection,
             raycastPosition.position.y);
         Gizmos.DrawLine(raycastPosition.position, wallLine);

@@ -1,27 +1,33 @@
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "IA/State/Patrol")]
 public class PatrolState : BaseState
 {
+    //Has to derive from a base class.
     Enemy enemy;
+    Sensor sensor;
+
+    
+
+    private void OnEnable()
+    {
+        type = StateType.Patrol;
+    }
 
     public override void EnterState(StateMachine stateMachine)
     {
-        enemy = stateMachine.enemy;
+        enemy = stateMachine.Enemy;
+        sensor = enemy.Sensor;
     }
 
     public override void UpdateState(StateMachine stateMachine)
     {
-        enemy.Movement.PerformMovement(enemy, Time.deltaTime);
-        Collisions(stateMachine);
+        enemy.Movement.WayPointMovement(enemy);
     }
 
     public override void Collisions(StateMachine stateMachine)
     {
-        //stateMachine.enemy.Sensor.OnDetected(stateMachine.transform, () =>
-        //stateMachine.SwitchState(stateMachine.combat));
-        //var enemy = stateMachine.enemy;
-
-        enemy.Sensor.UpdateScan(stateMachine.transform, () =>
-        stateMachine.SwitchState(stateMachine.combat));
+        sensor.UpdateScan(stateMachine.transform, () =>
+        stateMachine.SwitchState(StateType.Combat));
     }
 }

@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 using DG.Tweening;
 using Bissash;
 
-
 public class Player : MonoBehaviour
 {
     Rigidbody2D body;
@@ -14,8 +13,7 @@ public class Player : MonoBehaviour
     Animator anim;
     Sensor sensor;
     PlayerInputActions playerInputActions;
-    public float firstTimerCooldown = 5f;
-    public float secondTimerCooldown = 5f;
+    ParticleSystem particleEmiter;
 
     public GameEvent gameStartEvent;
   
@@ -49,6 +47,9 @@ public class Player : MonoBehaviour
     public float coyoteTimeCounter;
     [SerializeField]private bool canDoubleJump = false;
     [SerializeField]private bool jumpPressed;
+    [SerializeField] float accelerationSpeed;
+    [SerializeField]private float _timeToTween = 1f;
+    private OneTime smoothSpeedOne = new OneTime();
 
     // Start is called before the first frame update
     void Awake()
@@ -57,7 +58,8 @@ public class Player : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         Sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        
+        particleEmiter = GetComponentInChildren<ParticleSystem>();
+
     }
 
     private void OnEnable()
@@ -159,13 +161,31 @@ public class Player : MonoBehaviour
         //if (wallJumping && isGrounded)
         //    canMove = true;
 
+        if(inputAxis == Vector2.zero)
+        {
+            smoothSpeedOne.Reestart();
+            speed = 0.1f;
+            particleEmiter.Pause();
+        }
+
+        if(!isGrounded)
+            particleEmiter.Pause();
+
+        if (inputAxis != Vector2.zero)
+            smoothSpeedOne.PerformOne(DoOnce);
+
         if (canMove)
         {
+            particleEmiter.Play();
             body.velocity = new Vector2(inputAxis.x * speed, body.velocity.y);
             FlipSprite();
         }
     }
 
+    void DoOnce()
+    {
+        DOTween.To(() => speed, x => speed = x, 7f, _timeToTween);
+    }
     private void CollisionChecks()
     {
         isGrounded = Physics2D.Raycast(raycastPosition.position, Vector2.down,
@@ -220,16 +240,16 @@ public class Player : MonoBehaviour
         canMove = true;
     }
 
+    //Make sure the gravity always go back to normal.
     private IEnumerator Dash()
     {
         var previousSpeed = speed;
-        var previousGravity = body.gravityScale;
+        var previousGravity = 5f;
         canMove = false;
         anim.SetTrigger("Dash");
         speed = dashSpeed;
         body.gravityScale = 0f;
         body.velocity = new Vector2(facingDirection * speed, 0);
-
         yield return new WaitForSeconds(0.4f);
         canMove = true;
         body.velocity = Vector2.zero;
@@ -279,7 +299,7 @@ public class Player : MonoBehaviour
 
     void Animations()
     {
-        var isMoving = body.velocity.x != 0;
+        var isMoving = inputAxis.x != 0;
         anim.SetBool("IsMoving", isMoving);
         anim.SetBool("IsGround", isGrounded);
     }

@@ -7,11 +7,11 @@ public class GameEventListener : MonoBehaviour
 
     public GameEvent gameStartEvent;
 
-    public List<Health> effects;
+    public Transform GOEffects;
     // Start is called before the first frame update
     private void Awake()
     {
-        effects = transform.GetChildElementsTo<Health>();
+
     }
 
     private void OnEnable()
@@ -26,10 +26,7 @@ public class GameEventListener : MonoBehaviour
 
     void StartEffects()
     {
-        foreach (var effect in effects)
-        {
-            effect.gameObject.SetActive(true);
-        }
+        GOEffects.SetActiveAllChildrens();
     }
 
 }

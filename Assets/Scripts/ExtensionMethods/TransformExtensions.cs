@@ -85,4 +85,12 @@ public static class TransformExtensions
     }
 
     public static void SetLocalPositionToZero(this Transform transform) => transform.localPosition = Vector3.zero;
+
+
+    public static void SetActiveAllChildrens(this Transform transform)
+    {
+        List<Transform> elements = transform.GetChildTransforms();
+
+        elements.ForEach( a => a.gameObject.SetActive(true));
+    }
 }

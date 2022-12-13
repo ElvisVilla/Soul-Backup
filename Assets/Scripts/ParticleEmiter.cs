@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class ParticleEmiter : MonoBehaviour
 {
-    private List<ParticleSystem> particles = new List<ParticleSystem>(10);
+    [SerializeField] List<ParticleSystem> particles = new List<ParticleSystem>();
     [SerializeField] bool loop = false;
     [SerializeField] bool playOnAwake = false;
     public bool beingPlayed;
 
     private void OnEnable()
     {
-        particles = transform.GetChildElementsTo<ParticleSystem>();
+        //particles = transform.GetChildElementsTo<ParticleSystem>();
 
         particles.ForEach(particleSystem =>
         {

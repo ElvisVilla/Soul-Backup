@@ -18,7 +18,7 @@ ScriptedImporter:
     generateAnimations: 1
     createAnimationAssets: 0
     bindType: 0
-    animType: 0
+    animType: 1
     baseAnimator: {instanceID: 0}
     buildAtlas: 0
     tileSize: {x: 16, y: 16}

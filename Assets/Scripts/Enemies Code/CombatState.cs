@@ -5,8 +5,7 @@ using UnityEngine.InputSystem;
 [CreateAssetMenu(menuName = "IA/State/Combat")]
 public class CombatState : BaseState
 {
-    Enemy enemy;
-    Sensor sensor;
+
 
     private void OnEnable()
     {
@@ -15,16 +14,14 @@ public class CombatState : BaseState
 
     public override void EnterState(StateMachine stateMachine)
     {
-        enemy = stateMachine.Enemy;
-        sensor = enemy.Sensor;
     }
 
     public override void UpdateState(StateMachine stateMachine)
     {
-        var isDetecting = sensor.IsDetectingTarget(enemy.transform);
+        var isDetecting = stateMachine.Enemy.Sensor.IsDetectingTarget(stateMachine.Enemy.transform);
         if (isDetecting)
         {
-            enemy.Movement.Move(enemy, Time.deltaTime, sensor.target);
+            stateMachine.Enemy.Movement.Move(stateMachine.Enemy, stateMachine.Enemy.Sensor.target, -1);
         }
         else
         {
@@ -34,6 +31,6 @@ public class CombatState : BaseState
 
     public override void Collisions(StateMachine stateMachine)
     {
-        sensor.UpdateScan(enemy.transform);
+        stateMachine.Enemy.Sensor.UpdateScan(stateMachine.Enemy.transform);
     }
 }

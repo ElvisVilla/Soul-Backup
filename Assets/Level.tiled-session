@@ -1,0 +1,65 @@
+{
+    "activeFile": "Levels/Maps/First level.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "/Users/mac/Documents/Penusbmic Art/Night.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4.18
+        },
+        "Levels/Maps/First level.tmx": {
+            "scale": 1.4155,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 663.0166019074533,
+                "y": 297.42140586365247
+            }
+        },
+        "Levels/Maps/sin nombre.tmx": {
+            "scale": 2.8684,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 424.80128294519596,
+                "y": 149.5607307209594
+            }
+        },
+        "Levels/Tiles/Decorative.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2.71
+        },
+        "Levels/Tiles/Ruin Tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "Levels/Tiles/Ruin Tileset.tsx": {
+            "scaleInDock": 2.2448,
+            "scaleInEditor": 2.71
+        },
+        "Levels/Tiles/Ruins Tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/mac/Documents/GitHub/Soul/Assets/Art/Level Art/Decorative Elements",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "Levels/Tiles/Ruin Tileset.tsx",
+        "Levels/Maps/First level.tmx",
+        "Levels/Tiles/Decorative.tsx"
+    ],
+    "project": "",
+    "recentFiles": [
+        "Levels/Tiles/Ruin Tileset.tsx",
+        "Levels/Tiles/Decorative.tsx",
+        "Levels/Maps/First level.tmx",
+        "Levels/Maps/sin nombre.tmx",
+        "/Users/mac/Documents/Penusbmic Art/Night.tsx",
+        "Levels/Tiles/Ruin Tiles.tsx",
+        "Levels/Tiles/Ruins Tiles.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

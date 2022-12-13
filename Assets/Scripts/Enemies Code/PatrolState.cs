@@ -4,10 +4,6 @@ using UnityEngine;
 public class PatrolState : BaseState
 {
     //Has to derive from a base class.
-    Enemy enemy;
-    Sensor sensor;
-
-    
 
     private void OnEnable()
     {
@@ -16,18 +12,16 @@ public class PatrolState : BaseState
 
     public override void EnterState(StateMachine stateMachine)
     {
-        enemy = stateMachine.Enemy;
-        sensor = enemy.Sensor;
     }
 
     public override void UpdateState(StateMachine stateMachine)
     {
-        enemy.Movement.WayPointMovement(enemy);
+        stateMachine.Enemy.Movement.WayPointMovement(stateMachine.Enemy);
     }
 
     public override void Collisions(StateMachine stateMachine)
     {
-        sensor.UpdateScan(stateMachine.transform, () =>
+        stateMachine.Enemy.Sensor.UpdateScan(stateMachine.transform, () =>
         stateMachine.SwitchState(StateType.Combat));
     }
 }

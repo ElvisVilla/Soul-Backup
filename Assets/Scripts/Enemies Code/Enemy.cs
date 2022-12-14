@@ -24,10 +24,4 @@ public class Enemy : MonoBehaviour
         Body = GetComponent<Rigidbody2D>();
         Sprite = GetComponent<SpriteRenderer>();
     }
-
-    private void Start()
-    {
-        Physics2D.IgnoreLayerCollision(7, 6);
-
-    }
 }

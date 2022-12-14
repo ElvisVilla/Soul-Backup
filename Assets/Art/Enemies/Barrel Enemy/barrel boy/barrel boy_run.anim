@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: barrel boy_run
-  serializedVersion: 7
+  serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -18,8 +18,7 @@ AnimationClip:
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves:
-  - serializedVersion: 2
-    curve:
+  - curve:
     - time: 0
       value: {fileID: 8779551313387802001, guid: 696808bc42a7f46388b4067aac7b5a11, type: 3}
     - time: 0.1
@@ -38,7 +37,6 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
-    flags: 2
   m_SampleRate: 25
   m_WrapMode: 2
   m_Bounds:
@@ -53,8 +51,6 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: 8779551313387802001, guid: 696808bc42a7f46388b4067aac7b5a11, type: 3}
     - {fileID: 8531381827241324722, guid: 696808bc42a7f46388b4067aac7b5a11, type: 3}

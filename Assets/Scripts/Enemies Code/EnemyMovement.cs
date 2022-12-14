@@ -6,7 +6,6 @@ using DG.Tweening;
 [System.Serializable]
 public class EnemyMovement
 {
-    [SerializeField] private float clossestDistance = -2f;
     [SerializeField] private float stoppingDistance = 2f;
     [SerializeField] private float speed = 1f;
     [SerializeField] private float followSpeed = 5f;
@@ -20,19 +19,23 @@ public class EnemyMovement
 
     public Transform target;
 
+    public void Init(Enemy enemy)
+    {
+        body = enemy.Body;
+    }
+
     public void WayPointMovement(Enemy owner)
     {
         distanceToWaypoint = Vector2.Distance(owner.transform.position, wayPoints[indexWaypoint].position);
 
         if (distanceToWaypoint > 0.5f)
         {
-            owner.Animator.SetBool("IsMoving", true);
             owner.Body.position = Vector2.MoveTowards(owner.Body.position, wayPoints[indexWaypoint].position,
             speed * Time.deltaTime);
+            //Animations();
         }
         else
         {
-            owner.Animator.SetBool("IsMoving", false);
             if (doOnce == false)
             {
                 waitTime = Random.Range(1f, 5f);
@@ -54,33 +57,23 @@ public class EnemyMovement
         doOnce = false;
     }
 
-    public void Move(Enemy owner, Transform target, float speed = 1f)
+    public void Move(Enemy owner, float delta, Transform target)
     {
-
         var targetDirection = target.position - owner.transform.position;
         var distance = Vector2.Distance(target.position, owner.transform.position);
+        Debug.Log(distance);
 
         if (distance > stoppingDistance)
         {
-            owner.Animator.SetBool("IsMoving", true);
+            
             owner.Body.position = Vector2.MoveTowards(owner.Body.position, target.transform.position,
             followSpeed * Time.deltaTime);
-        }
-        else if(distance < stoppingDistance -1.5f)
-        {
-            owner.Animator.SetBool("IsMoving", true);
-            owner.Body.position = Vector2.MoveTowards(owner.Body.position, target.transform.position,
-            followSpeed * speed * Time.deltaTime);
-        }
-        else
-        {
-            owner.Animator.SetBool("IsMoving", false);
         }
     }
 
     void Animations(Enemy owner)
     {
-       
+        owner.Animator.SetBool("IsMoving", distanceToWaypoint > 0.5f);
     }
 
     void SpriteOrientation(Enemy owner)

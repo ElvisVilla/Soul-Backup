@@ -1,6 +1,6 @@
 trackSelection = true
 fetchPreview = true
-defaultFlags = 0
+wantsMore = false
 keepOpen = false
 queryFolder = "Assets"
 onBoardingDoNotAskAgain = true
@@ -13,12 +13,6 @@ scopes = {
 	"last_search.8040E7BB" = "Player"
 	"OpenInspectorPreview.8040E7BB" = "0"
 	"currentGroup.8040E7BB" = "all"
-	"last_search.310DEAF1" = "Player"
-	"OpenInspectorPreview.310DEAF1" = "0"
-	"currentGroup.310DEAF1" = "menu"
-	"last_search.3BE40471" = "Grass"
-	"OpenInspectorPreview.3BE40471" = "0"
-	"currentGroup.3BE40471" = "asset"
 }
 providers = {
 	find = {
@@ -62,19 +56,16 @@ providers = {
 		defaultAction = null
 	}
 }
-objectSelectors = {
-}
 recentSearches = [
-	"M"
 	"P"
 ]
 searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
-showSavedSearchPanel = true
+showSavedSearchPanel = false
 expandedQueries = [
 ]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
-helperWidgetCurrentArea = "h:"
+helperWidgetCurrentArea = "all"
 disabledIndexers = ""
